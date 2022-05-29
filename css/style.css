@@ -1,9 +1,12 @@
 body{
     color: var(--Gray);
     font-family: 'Roboto', sans-serif;
+    background-image: url("../img/rodion-kutsaev-8P-uQaTd8rw-unsplash.jpg");
+    background-size: cover;
 }
 .navbar{
-    background-color: var(--Success);
+    background-image: url("../img/rodion-kutsaev-8P-uQaTd8rw-unsplash.jpg");
+    background-size: cover;
     position: fixed;
     top: 0;
     right: 0;
@@ -15,7 +18,7 @@ body{
     margin-right: 10px;
 }
 .nav-link{
-    color: var(--Primary) !important;
+    color: var(--Primary-light) !important;
 } 
 .nav-link:hover{
     color: var(--Primary-light) !important;
@@ -28,19 +31,21 @@ body{
     border-bottom: 2px solid var(--Secondary-dark);
 } 
 .dropdown-menu{
-    background-color: var(--Secondary);
+    background-color: var(--Primary-light);
 }
 .dropdown-item:hover{
     background-color: var(--Danger-extra-light);
-    color: aqua;
+    color: rgb(208, 0, 255);
 }
-.dropdown-item:{
+.dropdown-item{
     color: var(--Danger-)
+}
+.logo{
+    height: 60px;
 }
 .hero{
     min-height: 70vh;
     height: 70vh;
-    background: var(--Primary-gradient);
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -78,7 +83,8 @@ body{
 }
 
 .footer{
-    background: var(--Primary-gradient-rev);
+    background-image: url("../img/rodion-kutsaev-8P-uQaTd8rw-unsplash.jpg");
+    background-size: contain;
     text-align: center;
     padding: 30px;
     margin-top: 60px;
@@ -111,16 +117,16 @@ body{
 }
 /* buttons */
 .btn-primary{
-    background-color: var(--Success-dark);
-    border-color: var(--Success-dark);
+    background-color: var(--Primary);
+    border-color: var(--Primary);
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
-    background-color: var(--Success);
-    border-color: var(--Success);
+    background-color: var(--Primary);
+    border-color: var(--Primary);
 }
 .btn-primary:focus{
-    box-shadow: 0 0 0 0.25rem var(--Success-light);
+    box-shadow: 0 0 0 0.25rem var(--Primary);
 }
 .btn-secondary{
     background-color: var(--secondary);
@@ -132,7 +138,10 @@ body{
     border-color: var(--secondary-light);
 }
 .btn-secondary:focus{
-    box-shadow: 0 0 0 0.25rem var(--Success-light);
+    box-shadow: 0 0 0 0.25rem var(--secondary-light);
+}
+.card{
+    background-color: rgb(171, 115, 223);
 }
 
 .card-title{
@@ -141,4 +150,26 @@ body{
 .card-text{
     font-family: var(--font-family-normal);
     font-size: var(--font-size-small);
+}
+#travelappimg{
+    background-image: url("../img/TRAVELAPP3.png");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+#Ulearnappimg{
+    background-image: url("../img/ulearnproto.png");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+#hcplcappimg{
+    background-image: url("../img/HCPLC2.png");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+#project3Imgs{
+    width: 100%;
+    height: 225px;
 }
